@@ -47,7 +47,6 @@ button {
     background: none;
     color: #ff5e84;
     border: none;
-    font-weight: bold;
     font-size: 14px;
     font-weight: bold;
     line-height: 18px;
@@ -129,6 +128,7 @@ footer a {
 
     display: flex;
     justify-content: center;
+    transition: 400ms;
 }
 
 #modal .content {
