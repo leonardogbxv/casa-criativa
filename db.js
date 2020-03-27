@@ -16,29 +16,29 @@ db.serialize(function() {
     `);
 
     //Inserir dados na tabela
-    const query = `
-        INSERT INTO ideas(
-            image,
-            title,
-            category,
-            description,
-            link 
-        ) VALUES(?,?,?,?,?);
-    `;
+    // const query = `
+    //     INSERT INTO ideas(
+    //         image,
+    //         title,
+    //         category,
+    //         description,
+    //         link 
+    //     ) VALUES(?,?,?,?,?);
+    // `;
     
-    const values = [
-        "https://image.flaticon.com/icons/svg/2729/2729021.svg",
-        "Games",
-        "Entretenimento",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, soluta earum quae molestias accusantium",
-        "https://store.steampowered.com/"
-    ];
+    // const values = [
+    //     "https://image.flaticon.com/icons/svg/2729/2729007.svg",
+    //     "Cursos de Programação",
+    //     "Estudo",
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, soluta earum quae molestias accusantium",
+    //     "https://rocketseat.com.br"
+    // ];
 
-    db.run(query, values, function(err) {
-        if(err) return console.log(err);
+    // db.run(query, values, function(err) {
+    //     if(err) return console.log(err);
         
-        console.log(this);
-    });
+    //     console.log(this);
+    // });
 
 /************************************************
  * Executar separadamente

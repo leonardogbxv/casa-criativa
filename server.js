@@ -29,7 +29,7 @@ server.get("/", function(req, res) {
 
         let lastIdeas = [];
         for(let idea of reversedIdeas) {
-            if(lastIdeas.length < 2) {
+            if(lastIdeas.length < 3) {
                 lastIdeas.push(idea);
             };
         };
